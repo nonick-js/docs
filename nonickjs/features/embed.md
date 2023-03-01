@@ -1,10 +1,10 @@
 ---
 icon: dot
 tag: [スラッシュコマンド]
-author: 
+author:
 - name: NoNICK
   avatar: https://media.discordapp.net/attachments/958791423161954445/975266759529623652/-3.png?width=663&height=663
-order: 84
+order: 98
 ---
 # /embed
 !!!success
@@ -28,32 +28,37 @@ DiscordAPIのバージョンアップ等で環境が揃えば実装する予定�
 
 ![](/static/features/embed_2.png)
 
-引数                                             | 説明
----                                              | ---
-`title` [!badge variant="danger" text="必須"] | 埋め込みのタイトル
-`description`                                    | 埋め込みの説明
-`color`                                          | 埋め込みの色 (7色から選択・未選択の場合は白色)
-`attachment`                                     | 埋め込みに添付する画像
+引数           | 説明
+---            | ---
+`title`        | 埋め込みのタイトル
+`description`  | 埋め込みの説明
+`color`        | 埋め込みの色 (8色から選択・未選択の場合は白色)
+`attachment`   | 埋め込みに添付する画像
 
 ## 埋め込みをカスタマイズする
-コマンドを実行すると、「プレビューモード」と書かれたメッセージが返されます。<br>
+コマンドを実行すると、コマンドを元に生成された埋め込みがプレビューモードで表示されます。  
 このモードでは、実際に埋め込みを送信する前に、設定した埋め込みの確認や、埋め込みに新しい要素を追加・削除することが可能です。
 カスタマイズには、メッセージ下部にあるボタンを使用します。
-![](/static/features/embed_1.png)  
+![](/static/features/embed_1.png)
 
 ==- 基本
 埋め込みの基本情報を変更します。
 
 項目 | 説明
 --- | ---
-タイトル [!badge variant="danger" text="必須"] | 埋め込みのタイトル
+タイトル | 埋め込みのタイトル
 タイトルURL | 埋め込みのタイトルに紐づけるURL
 説明 | 埋め込みの説明欄
 色 [!badge variant="danger" text="必須"] | 埋め込みの色
+
+!!!
+埋め込みの色は、カラーコードの代わりにこれらの色の名前を入れることもできます。  
+`Default` `White` `Aqua` `Green` `Blue` `Yellow` `Purple` `LuminousVividPink` `Fuchsia` `Gold` `Orange` `Red` `Grey` `Navy` `DarkAqua` `DarkGreen` `DarkBlue` `DarkPurple` `DarkVividPink` `DarkGold` `DarkOrange` `DarkRed` `DarkGrey` `DarkerGrey` `LightGrey` `DarkNavy` `Blurple` `Greyple` `DarkButNotBlack` `NotQuiteBlack` `Random`
+!!!
 ===
 
 ==- 画像
-埋め込みに表示する画像を変更します。  
+埋め込みに表示する画像を変更します。
 ![](/static/features/embed_sample_1.png)
 
 項目 | 説明
@@ -67,14 +72,14 @@ DiscordAPIのバージョンアップ等で環境が揃えば実装する予定�
 
 !!!warning
 `名前`は投稿者情報を作成するために必須の項目です。<br>
-(投稿者情報を削除したい場合は、`名前`を空白に設定してください。)
+(投稿者情報を削除したい場合は、全ての要素を空白に設定してください。)
 !!!
 ![](/static/features/embed_sample_2.png)
 
-項目 | 説明
---- | ---
-名前 | 表示する名前(文章)
-アイコンURL | アイコンに設定するURL
+項目          | 説明
+---           | ---
+名前          | 表示する名前(文章)
+アイコンURL   | アイコンに設定するURL
 ハイパーリンク | `名前`に紐づけるリンク
 ===
 
@@ -83,18 +88,47 @@ DiscordAPIのバージョンアップ等で環境が揃えば実装する予定�
 
 !!!warning
 `テキスト`はフッターを作成するために必須の項目です。<br>
-(フッターを削除したい場合は、`テキスト`を空白に設定してください。)
+(フッターを削除したい場合は、全ての要素を空白に設定してください。)
 !!!
 
 ![](/static/features/embed_sample_3.png)
 
-項目 | 名前
+項目 | 説明
 --- | ---
 テキスト | 表示する文章
 アイコンURL | アイコンに設定するURL
 ===
 
-* **フィールドを追加/削除**... 埋め込みにフィールドを追加/削除します。 
+==- フィールドを追加/削除
+埋め込みにフィールドを追加/削除します。
+
+#### フィールドを追加
+項目 | 説明
+--- | ---
+フィールドの名前 [!badge variant="danger" text="必須"] | -
+フィールドの値 [!badge variant="danger" text="必須"] | -
+インライン表示にするか | 他のフィールド同士を横並べにするか設定できます。<br>`true`で有効、`false`で無効に設定します
+
+#### フィールドを削除
+項目 | 説明
+--- | ---
+削除するフィールドの順番 [!badge variant="danger" text="必須"] | -
+===
+
+==- タイムスタンプ
+埋め込みにタイムスタンプを設定します。
+
+項目 | 説明
+--- | ---
+タイムスタンプ [!badge variant="danger" text="必須"] | ISO 8601形式のタイムスタンプ (または「now」)
+
+!!!warning
+入力するタイムスタンプは、ISO 8601形式を採用しています。  
+ISO 8601は、`YYYY-MM-DDThh:mm:ss+時差(GMT)`で日付や時刻を表示できるフォーマットです。  
+例えば、日本時間(時差`+09:00`)の`2022年10月17日午前12時00分00秒`をISO 8601で表記する際は、`2022-10-17T12:00:00+09:00`となります。  
+また、「now」と入力した場合、NoNICK.jsが現在時刻を補完します。
+!!!
+===
 
 ## 埋め込みを送信する
 パネルのカスタマイズが終わったら、「**送信**」ボタンを選択してパネルを送信しましょう！
