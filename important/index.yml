@@ -1,4 +1,3 @@
 label: 重要
-icon: repo
-expanded: true
-order: 101
+icon: stop
+order: 95

@@ -1,5 +1,4 @@
-memo.txt
-.vscode
 node_modules
+old
 .cache
 .temp
