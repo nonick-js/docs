@@ -14,12 +14,7 @@ icon: home
 ドキュメントに書かれていないことで質問がある場合は、お気軽に[サポートサーバー](https://discord.gg/fVcjCNn733)まで連絡してください！
 !!!
 
-## ドキュメントの読み方
-このドキュメントでは、BOTやDiscordを始めて使う方でも使い方が理解できるように、様々なページを用意しています。
-
 !!!danger
 **NoNICK.jsおよびNoNICK.statsを使用する前に、必ず[利用規約](/important/teams-of-service.md)と[プライバシーポリシー](/important/privacy-policy.md)を確認してください**。
 BOTのいずれかの機能やコマンドを使用した場合、これらに同意したとみなされます。
 !!!
-
-* BOTを使うのが初めての方は[**入門**](/tutorial/introduction.md)からご覧ください。このカテゴリでは、BOTの導入方法などのBOTに関する基礎知識について案内しています。
