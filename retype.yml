@@ -1,6 +1,5 @@
 input: .
 output: .retype
-locale: ja
 url: docs.nonick-js.com
 favicon: static/nonickjs-sq.png
 branding:
