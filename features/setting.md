@@ -13,7 +13,7 @@ order: 21
 NoNICK.jsのコントロールパネルを開くコマンドです。コントロールパネルは、NoNICK.jsに搭載されている一部機能のカスタマイズをすることができます。
 
 !!!
-コントロールパネルの使い方に関する情報は、[NoNICK.jsの設定](/nonick-js/setting.md)を参照してください。
+コントロールパネルの使い方に関する情報は、[NoNICK.jsの設定](/features/how-to-setting.md)を参照してください。
 !!!
 
 ![](/static/tutorial/setting/1.png)

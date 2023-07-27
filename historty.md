@@ -1,6 +1,6 @@
 ---
 icon: history
-order: 80
+order: 98
 ---
 
 # 更新履歴

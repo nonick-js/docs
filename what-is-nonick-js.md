@@ -1,6 +1,6 @@
 ---
 icon: milestone 
-order: 100
+order: 99
 ---
 
 # NoNICK.jsとは

@@ -2,14 +2,14 @@ input: .
 output: .retype
 locale: ja
 url: docs.nonick-js.com
-favicon: static/nonickjs-sq.png
+favicon: static/favicon.png
 branding:
   title: NoNICK.js
-  label: Docs
-  logo: static/nonickjs-sq.png
+  logo: static/logo.png
+  logoDark: static/logo-dark.png
 links:
 - text: サポートサーバー
-  link: https://discord.gg/fVcjCNn733
+  link: https://discord.gg/6YJFzppp3x
   icon: comment-discussion
   target: blank
 - text: Twitter

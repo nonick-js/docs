@@ -153,7 +153,7 @@ ISO 8601は、`YYYY-MM-DDThh:mm:ss+時差(GMT)`で日付や時刻を表示でき
 
 !!!
 このコンテキストメニューには多くの機能が搭載されており、煩雑化防止のために別ページに記載しています。  
-[!button /embed (拡張) に移動する](/nonick-js/features/embed-extend.md)
+[!button /embed (拡張) に移動する](/features/embed-extend.md)
 !!!
 
 ## 送信者のプロフィールを変更する

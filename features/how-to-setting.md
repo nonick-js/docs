@@ -1,6 +1,6 @@
 ---
 icon: tools
-order: 99
+order: 101
 ---
 
 # NoNICK.jsの設定
