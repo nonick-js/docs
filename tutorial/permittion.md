@@ -1,6 +1,6 @@
 ---
 icon: tools
-order: 98
+order: 97
 ---
 
 # コマンドの権限を変更する
