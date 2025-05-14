@@ -15,6 +15,6 @@ icon: home
 !!!
 
 !!!danger
-**NoNICK.jsおよびNoNICK.statsを使用する前に、必ず[利用規約](/important/teams-of-service.md)と[プライバシーポリシー](/important/privacy-policy.md)を確認してください**。
+**NoNICK.jsおよびNoNICK.statsを使用する前に、必ず[利用規約](https://nonick-js.com/tos)と[プライバシーポリシー](https://nonick-js.com/privacy-policy)を確認してください**。
 BOTのいずれかの機能やコマンドを使用した場合、これらに同意したとみなされます。
 !!!
