@@ -7,6 +7,8 @@ branding:
   title: NoNICK.js
   logo: static/logo.png
   logoDark: static/logo-dark.png
+meta:
+  title: " - NoNICK.js Docs"
 links:
 - text: サポートサーバー
   link: https://discord.gg/q4FcBm2P42
