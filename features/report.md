@@ -22,7 +22,7 @@ order: 99
   <source src="/static/features/report/manage_report.mp4" type="video/mp4">
 </video>
 
-![](/static/features/report/4.png)
+<br/>
 
 | ボタン | 動作 |
 |---|---|
